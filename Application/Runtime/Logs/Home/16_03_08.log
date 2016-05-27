@@ -1,0 +1,9 @@
+[ 2016-03-08T20:14:36+08:00 ] 127.0.0.1 /Details
+ERR: 无法加载控制器:Details
+
+[ 2016-03-08T20:15:03+08:00 ] 127.0.0.1 /Details
+ERR: 模板不存在:./Application/Home/View/Details/index.html
+
+[ 2016-03-08T20:15:30+08:00 ] 127.0.0.1 /Details
+ERR: 模板不存在:./Application/Home/View/../.html
+

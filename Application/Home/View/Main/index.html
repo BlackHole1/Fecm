@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>FECM平台-数据可视化</title>
+	<import type='css' file="css.library.bootstrap.bootstrap,css.library.sweetalert,css.base.base"/>
+</head>
+<body>
+<include file="Public/include/nav.html" />
+<div class="container">
+	<blockquote>
+		<h3>近七天漏洞发现数量对比图</h3>
+	</blockquote>
+	<canvas id="Statistics" style="width: 848px; height: 250px;"></canvas>
+</div>
+</body>
+<import file="js.library.jquery,js.library.bootstrap,js.library.Chart,js.base.base"/>
+<script type="text/javascript">
+	var lineChartData = {
+		labels :eval({$reportForm})['Labels'],
+		datasets : [
+			{
+				fillColor : "rgba(151,187,205,0.5)",
+				strokeColor : "rgba(151,187,205,1)",
+				pointColor : "rgba(151,187,205,1)",
+				pointStrokeColor : "#fff",
+				data : eval({$reportForm})['Total']
+			}
+		]
+	}
+	var myLine = new Chart(document.getElementById("Statistics").getContext("2d")).Line(lineChartData);
+</script>
+</html>

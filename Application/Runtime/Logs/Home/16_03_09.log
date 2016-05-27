@@ -1,0 +1,1332 @@
+[ 2016-03-09T13:32:02+08:00 ] 127.0.0.1 /Api/deleteVul/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0310s ]
+SQL: DELETE FROM `fecm_bugdata` WHERE ( id = 1 ) [ RunTime:0.0000s ]
+
+[ 2016-03-09T13:38:40+08:00 ] 127.0.0.1 /Api/deleteVul/id/1456
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 1456 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T13:48:50+08:00 ] 127.0.0.1 /Api/fixesVul/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 1 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 1 ) [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:38:37+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:39:28+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:39:33+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-03-09T14:39:37+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:41:03+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:42:38+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:42:50+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:43:04+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:43:08+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:43:11+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:43:13+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:45:30+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:47:08+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:47:27+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:49:07+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:49:25+08:00 ] 127.0.0.1 /Api/findVul/id/156561
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 156561 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:49:56+08:00 ] 127.0.0.1 /Api/findVul/id/156561
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 156561 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:51:19+08:00 ] 127.0.0.1 /Api/findVul/id/112312315
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 112312315 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:51:43+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0120s ]
+
+[ 2016-03-09T14:51:50+08:00 ] 127.0.0.1 /Api/findVul/id/115642
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 115642 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:52:23+08:00 ] 127.0.0.1 /Api/findVul/id/23123152342
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:53:18+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:53:26+08:00 ] 127.0.0.1 /Api/findVul/id/1234156463
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 1234156463 ) LIMIT 1   [ RunTime:0.0060s ]
+
+[ 2016-03-09T14:53:34+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:53:48+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:53:49+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:53:50+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:53:58+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:54:01+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:54:02+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:54:10+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:54:19+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:54:20+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:54:33+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:54:34+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:54:35+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:02+08:00 ] 127.0.0.1 /Api/findVul/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:03+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:04+08:00 ] 127.0.0.1 /Api/findVul/id/10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 10 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:07+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:09+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:10+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:11+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:16+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:17+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:18+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:21+08:00 ] 127.0.0.1 /Api/fixesVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 11 ) [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:27+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.2580s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:29+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:55:30+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:31+08:00 ] 127.0.0.1 /Api/fixesVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 9 ) [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:55:43+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:56:24+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:56:31+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:56:37+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:57:09+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:57:10+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:57:12+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:58:17+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:58:18+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:58:19+08:00 ] 127.0.0.1 /Api/findVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:58:22+08:00 ] 127.0.0.1 /Api/fixesVul/id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 3 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 3 ) [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:58:32+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:58:50+08:00 ] 127.0.0.1 /Api/findVul/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:58:52+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T14:58:53+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T14:58:54+08:00 ] 127.0.0.1 /Api/findVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2016-03-09T14:58:55+08:00 ] 127.0.0.1 /Api/fixesVul/id/5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 5 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 5 ) [ RunTime:0.0000s ]
+
+[ 2016-03-09T15:00:27+08:00 ] 127.0.0.1 /Api/findVul/id/11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:06+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0530s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:21:08+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:21:09+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:14+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:15+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:16+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:21:22+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:23+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:24+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:21:25+08:00 ] 127.0.0.1 /Api/fixesVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 7 ) [ RunTime:0.0040s ]
+
+[ 2016-03-09T19:22:49+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:22:53+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:23:05+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:23:09+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:23:24+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2016-03-09T19:23:48+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:24:08+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:24:25+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:24:49+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:25:30+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:27:00+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:27:07+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:27:21+08:00 ] 127.0.0.1 /Api/findVul/id/7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 7 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:27:37+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:27:42+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:27:45+08:00 ] 127.0.0.1 /Api/findVul/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T19:28:13+08:00 ] 127.0.0.1 /Api/findVul/id/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:28:41+08:00 ] 127.0.0.1 /Api/findVul/id/9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 9 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T19:28:58+08:00 ] 127.0.0.1 /Api/fixesVul/id/6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 6 and fixes = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 6 ) [ RunTime:0.0000s ]
+
+[ 2016-03-09T20:39:11+08:00 ] 127.0.0.1 /Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:39:29+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:40:22+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:40:43+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:40:53+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:41:06+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:41:09+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:41:16+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:41:23+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:41:31+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:43:16+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:43:22+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:43:29+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:43:32+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:43:42+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`url`,`cookies`,`ua`,`hxff_ip`,`hci_ip`,`ra_ip`,`fixes`) VALUES (NULL,NULL,NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:47:57+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:48:18+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:49:17+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:49:43+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:49:50+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:50:07+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:51:34+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:53:04+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:53:31+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:56:05+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:56:14+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:56:44+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:56:49+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:56:56+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T20:58:51+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:03:01+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:03:16+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:03:34+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`url`,`cookies`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:05:37+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'cookies' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:05:45+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'cookies' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP',NULL,NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:06:04+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP','PHPSESSID=d1810b920os4evu04et8a1tcv0; pgv_pvi=8669731840; pgv_si=s3533342720; FECM_uid=f67541ff7112d31cdeb9c7dc1f6faaa2; FECM_flag=c5541ff7e9a7ccff7112d7ccec67b4eaa131655038d6045038dc1969e52d364c58d364c58; thinkphp_show_page_trace=0|3; ',NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:06:55+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP','PHPSESSID=d1810b920os4evu04et8a1tcv0; pgv_pvi=8669731840; pgv_si=s3533342720; FECM_uid=f67541ff7112d31cdeb9c7dc1f6faaa2; FECM_flag=c5541ff7e9a7ccff7112d7ccec67b4eaa131655038d6045038dc1969e52d364c58d364c58; thinkphp_show_page_trace=0|3; ',NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:07:00+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'url' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP','PHPSESSID=d1810b920os4evu04et8a1tcv0; pgv_pvi=8669731840; pgv_si=s3533342720; FECM_uid=f67541ff7112d31cdeb9c7dc1f6faaa2; FECM_flag=c5541ff7e9a7ccff7112d7ccec67b4eaa131655038d6045038dc1969e52d364c58d364c58; thinkphp_show_page_trace=0|3; ',NULL,NULL,NULL,'0')
+
+[ 2016-03-09T21:07:12+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'ua' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP','PHPSESSID=d1810b920os4evu04et8a1tcv0; pgv_pvi=8669731840; pgv_si=s3533342720; FECM_uid=f67541ff7112d31cdeb9c7dc1f6faaa2; FECM_flag=c5541ff7e9a7ccff7112d7ccec67b4eaa131655038d6045038dc1969e52d364c58d364c58; thinkphp_show_page_trace=0|3; ','http://baidu.com/',NULL,NULL,'0')
+
+[ 2016-03-09T21:07:48+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'ra_ip' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP','PHPSESSID=d1810b920os4evu04et8a1tcv0; pgv_pvi=8669731840; pgv_si=s3533342720; FECM_uid=f67541ff7112d31cdeb9c7dc1f6faaa2; FECM_flag=c5541ff7e9a7ccff7112d7ccec67b4eaa131655038d6045038dc1969e52d364c58d364c58; thinkphp_show_page_trace=0|3; ','http://baidu.com/','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36',NULL,'0')
+
+[ 2016-03-09T21:08:33+08:00 ] 127.0.0.1 //Api/addVul/
+ERR: 1048:Column 'ra_ip' cannot be null
+ [ SQL语句 ] : INSERT INTO `fecm_bugdata` (`hxff_ip`,`hci_ip`,`cookies`,`url`,`ua`,`ra_ip`,`fixes`) VALUES ('攻击者没有通过代理服务器访问','攻击者数据包头部没有HTTP_CLIENT_IP','PHPSESSID=d1810b920os4evu04et8a1tcv0; pgv_pvi=8669731840; pgv_si=s3533342720; FECM_uid=f67541ff7112d31cdeb9c7dc1f6faaa2; FECM_flag=c5541ff7e9a7ccff7112d7ccec67b4eaa131655038d6045038dc1969e52d364c58d364c58; thinkphp_show_page_trace=0|3; ','','Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36',NULL,'0')
+
+[ 2016-03-09T21:12:01+08:00 ] 127.0.0.1 /Api/findVul/id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T21:13:19+08:00 ] 127.0.0.1 /Api/findVul/id/22
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T21:21:47+08:00 ] 127.0.0.1 /Api/fixesVul/id/24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 24 and fixes = 0 ) LIMIT 1   [ RunTime:0.0840s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 24 ) [ RunTime:0.0560s ]
+
+[ 2016-03-09T21:21:57+08:00 ] 127.0.0.1 /Api/fixesVul/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 23 and fixes = 0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 23 ) [ RunTime:0.0010s ]
+
+[ 2016-03-09T21:24:32+08:00 ] 127.0.0.1 /Api/findVul/id/25
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 25 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 25 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T22:11:54+08:00 ] 127.0.0.1 /Api/fixesVul/id/25
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 25 and fixes = 0 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 25 ) [ RunTime:0.0010s ]
+
+[ 2016-03-09T22:12:02+08:00 ] 127.0.0.1 /Api/fixesVul/id/26
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 26 and fixes = 0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `fecm_bugdata` SET `fixes`='1' WHERE ( id = 26 ) [ RunTime:0.0000s ]
+
+[ 2016-03-09T22:12:20+08:00 ] 127.0.0.1 /Api/deleteVul/id/23
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 23 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: DELETE FROM `fecm_bugdata` WHERE ( id = 23 ) [ RunTime:0.0010s ]
+
+[ 2016-03-09T22:12:59+08:00 ] 127.0.0.1 /Api/findVul/id/27
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-09T22:13:09+08:00 ] 127.0.0.1 /Api/findVul/id/25
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 25 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 25 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T22:17:53+08:00 ] 127.0.0.1 /Api/findVul/id/28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `fecm_bugdata` WHERE ( id = 28 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-03-09T22:29:26+08:00 ] 127.0.0.1 /Details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-09T22:29:49+08:00 ] 127.0.0.1 /Details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `fecm_bugdata` ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-09T22:31:10+08:00 ] 127.0.0.1 /Details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-09T22:35:43+08:00 ] 127.0.0.1 /Details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `fecm_bugdata` ORDER BY id desc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-09T22:35:52+08:00 ] 127.0.0.1 /Details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `fecm_bugdata` ORDER BY id desc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-09T22:37:22+08:00 ] 127.0.0.1 /Details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `fecm_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `fecm_user` WHERE ( md5name = "f67541ff7112d31cdeb9c7dc1f6faaa2" ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `fecm_bugdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `fecm_bugdata` ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
