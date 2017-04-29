@@ -119,6 +119,11 @@ $(".details-list>li>a").click(function(){
 				<i>'+json.msgText.category+'</i>\
 			</p>\
 			<p>\
+				<span class="glyphicon glyphicon-screenshot"></span>\
+				<b><span>XssUrl：</span></b>\
+				<i>'+base64.decode(json.msgText.xssurl)+'</i>\
+			</p>\
+			<p>\
 				<span class="glyphicon glyphicon-certificate"></span>\
 				<b><span>Cookie：</span></b>\
 				<i>'+json.msgText.cookies+'</i>\

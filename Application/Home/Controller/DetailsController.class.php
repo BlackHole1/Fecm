@@ -11,9 +11,9 @@ class DetailsController extends Controller {
 		$bugDataInfo = $bugData->order('id desc')->select();
 		for($i = 0;$i<count($bugDataInfo);$i++){
 			$bugDataInfo[$i]['fixes'] = ($bugDataInfo[$i]['fixes'] == 0)?"background-red":"background-green";
+			$bugDataInfo[$i]['xssurl'] = base64_decode($bugDataInfo[$i]['xssurl']);
 		}
-		$x = "";
-    	$this->assign('bugDataInfo',$bugDataInfo)->assign('x',$x);
+    	$this->assign('bugDataInfo',$bugDataInfo);
 		$this->display();
 	}
 }

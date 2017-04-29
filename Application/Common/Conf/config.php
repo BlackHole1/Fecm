@@ -44,7 +44,7 @@ server {
 	'DB_HOST'       => 'localhost',	//数据库所属位置
 	'DB_NAME'       => 'fecm',	//数据库名
 	'DB_USER'       => 'root',	//数据库密码
-	'DB_PWD'        => '741521',	//数据库密码
+	'DB_PWD'        => '000000',	//数据库密码
 	'DB_PORT'       => '3306',	//数据库连接端口
 	'DB_PREFIX'     => 'fecm_',	//数据库表前缀
 	);

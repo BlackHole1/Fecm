@@ -94,7 +94,14 @@ class ApiController extends Controller {
 				$vul['category'] = "触发alret函数";
 				break;
 			case '2':
-				$vul['category'] = "发现不在白名单里的第三方JavaScript资源";
+				if(I('get.url') == ""){
+					$this->ajaxReturn(array(
+						"typeMsg" =>  "error",
+						"msgText" =>  "url为空",
+					));
+				}
+				$vul['category'] = "在页面中的javascript里发现了xss攻击代码";
+				$vul['xssurl'] = I('get.url');
 				break;
 			default:
 				$this->ajaxReturn(array(
@@ -123,6 +130,26 @@ class ApiController extends Controller {
 		$vul['time']  = date("Y-m-d");	//获取攻击者攻击的时间
 		$vul['fixes'] = 0;	//默认为漏洞未修复
 		$bugData = M('bugdata');	//连接fecm_bugdata数据库
-		$bugData->data($vul)->add();	//添加到数据库中
+		if($bugData->where("url='".$vul['url']."'")->find() == null){
+			$bugData->data($vul)->add();	//添加到数据库中
+		}
+	}
+	public function downPage(){
+	if(I('get.url') == ""){
+		$this->ajaxReturn(array(
+			"typeMsg" =>  "error",
+			"msgText" =>  "url为空",
+		));
+	}
+	header("Access-Control-Allow-Origin: *");
+	$url = base64_decode(I('get.url'));
+	$ch =curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+	curl_setopt($ch, CURLOPT_TIMEOUT, 30);
+	$result =curl_exec($ch);
+	curl_close($ch);
+	echo $result;
 	}
 }
