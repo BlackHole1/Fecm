@@ -1,6 +1,6 @@
 module.exports = {
   nav: {
-    report: 'Report',
+    home: 'Home',
     recordDetails: 'Record Details',
     aboutMe: 'About Me'
   }

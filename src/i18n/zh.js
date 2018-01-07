@@ -1,6 +1,6 @@
 module.exports = {
   nav: {
-    report: '报表',
+    home: '首页',
     recordDetails: '记录详情',
     aboutMe: '关于我'
   }

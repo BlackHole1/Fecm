@@ -5,9 +5,9 @@
                 <Menu mode="horizontal" theme="dark" active-name="1" @on-select="gotoPage">
                     <div class="layout-logo"></div>
                     <div class="layout-nav">
-                        <MenuItem name="Report">
+                        <MenuItem name="Home">
                             <Icon type="ios-analytics"></Icon>
-                            {{$t("nav.report")}}
+                            {{$t("nav.home")}}
                         </MenuItem>
                         <MenuItem name="Record">
                             <Icon type="ios-keypad"></Icon>
@@ -44,7 +44,7 @@ export default {
   methods: {
     isMain () {
       if (this.routesWatch === 'Main') {
-        this.$router.replace('Report')
+        this.$router.replace('Home')
       }
     },
     gotoPage (name) {
@@ -57,14 +57,14 @@ export default {
     },
     currentModelName () {
       switch (this.routesWatch) {
-        case 'Report':
-          return this.$t('nav.report')
+        case 'Home':
+          return this.$t('nav.home')
         case 'Record':
           return this.$t('nav.recordDetails')
         case 'About':
           return this.$t('nav.aboutMe')
         default:
-          return this.$t('nav.report')
+          return this.$t('nav.home')
       }
     }
   },

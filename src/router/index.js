@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/components/Main'
-import Report from '@/components/Report'
+import Home from '@/components/Home'
 import Record from '@/components/Record'
 import About from '@/components/About'
 
@@ -15,9 +15,9 @@ export default new Router({
       component: Main,
       children: [
         {
-          path: 'Report',
-          name: 'Report',
-          component: Report
+          path: 'Home',
+          name: 'Home',
+          component: Home
         },
         {
           path: 'Record',
