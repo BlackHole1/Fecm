@@ -1,5 +1,7 @@
 # FECM
 
+> 请不要clone、download！项目还在开发。实时的代码开发在`develop`分支下
+
 文章地址请移步到：
  * [如何用前端防御XSS及建立XSS报警机制](http://www.freebuf.com/articles/web/110583.html)
  * [如何用前端防御XSS及建立XSS报警机制二](http://www.freebuf.com/articles/web/133509.html)
