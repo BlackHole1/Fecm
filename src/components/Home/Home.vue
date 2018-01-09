@@ -42,6 +42,11 @@
               </div>
             </Card>
           </div>
+          <div class="captureLogs">
+            <Card style="width:100%;margin-top:20px">
+              <ve-line :data="chartData"></ve-line>
+            </Card>
+          </div>
         </Col>
         <Col span="16">Coding...</Col>
     </Row>
@@ -50,7 +55,20 @@
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  created: function () {
+    this.chartData = {
+      columns: ['日期', '近七天触发次数图表'],
+      rows: [
+        { '日期': '1月1日', '近七天触发次数图表': 123 },
+        { '日期': '1月2日', '近七天触发次数图表': 12 },
+        { '日期': '1月3日', '近七天触发次数图表': 545 },
+        { '日期': '1月4日', '近七天触发次数图表': 44 },
+        { '日期': '1月5日', '近七天触发次数图表': 987 },
+        { '日期': '1月6日', '近七天触发次数图表': 324 }
+      ]
+    }
+  }
 }
 </script>
 

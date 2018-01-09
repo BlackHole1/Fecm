@@ -3,11 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+
 import iView from 'iview'
 import 'iview/dist/styles/iview.css'
+
 import VueI18n from 'vue-i18n'
 import en from 'iview/dist/locale/en-US'
 import zh from 'iview/dist/locale/zh-CN'
+
+import VeLine from 'v-charts/lib/line'
+Vue.component(VeLine.name, VeLine)
 
 Vue.use(VueI18n)
 Vue.use(iView)
