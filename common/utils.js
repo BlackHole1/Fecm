@@ -4,7 +4,7 @@ const pastTime = (days = 7) => {
     let differDayMs = new Date(Date.now() - 86400000 * i)
     let month = differDayMs.getMonth() + 1
     let day = differDayMs.getDate()
-    dateList.push(`${month}月${day}日`)
+    dateList.push(`${month}-${day}`)
   }
   return dateList
 }

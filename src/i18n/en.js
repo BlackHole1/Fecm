@@ -12,6 +12,10 @@ module.exports = {
         LastIp: 'Last IP',
         lastLoginTime: 'Last Login Time',
         lastLoginUA: 'Last Login Usre-Agent'
+      },
+      chart: {
+        name: 'Date',
+        title: 'Chart of triggering times for the last seven days'
       }
     }
   }

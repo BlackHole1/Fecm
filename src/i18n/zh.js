@@ -12,6 +12,10 @@ module.exports = {
         LastIp: '上次IP',
         lastLoginTime: '上次登录时间',
         lastLoginUA: '上次登录User-Agent'
+      },
+      chart: {
+        name: '日期',
+        title: '近七天触发次数图表'
       }
     }
   }

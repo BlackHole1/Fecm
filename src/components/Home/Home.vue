@@ -54,20 +54,30 @@
 </template>
 
 <script>
+const { pastTime } = require('../../../common/utils')
 export default {
   name: 'Home',
-  created: function () {
-    this.chartData = {
-      columns: ['日期', '近七天触发次数图表'],
-      rows: [
-        { '日期': '1月1日', '近七天触发次数图表': 123 },
-        { '日期': '1月2日', '近七天触发次数图表': 12 },
-        { '日期': '1月3日', '近七天触发次数图表': 545 },
-        { '日期': '1月4日', '近七天触发次数图表': 44 },
-        { '日期': '1月5日', '近七天触发次数图表': 987 },
-        { '日期': '1月6日', '近七天触发次数图表': 324 }
-      ]
+  created () {
+    this.flushChart()
+  },
+  methods: {
+    flushChart () {
+      let name = this.$t('home.left.chart.name')
+      let title = this.$t('home.left.chart.title')
+      this.chartData = {
+        columns: [name, title],
+        rows: []
+      }
+      for (let i = 0; i < 7; i++) {
+        let rowObj = Object.create(null)
+        rowObj[name] = pastTime()[6 - i]
+        rowObj[title] = Math.floor(Math.random() * 100)
+        this.chartData.rows.push(rowObj)
+      }
     }
+  },
+  watch: {
+    '$i18n.locale': 'flushChart'
   }
 }
 </script>
