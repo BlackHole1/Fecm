@@ -1,38 +1,44 @@
 <template>
-    <div class="layout">
-        <Layout>
-            <Header>
-                <Menu mode="horizontal" theme="dark" active-name="1" @on-select="gotoPage">
-                    <div class="layout-logo"></div>
-                    <div class="layout-nav">
-                        <MenuItem name="Home">
-                            <Icon type="ios-analytics"></Icon>
-                            {{$t("nav.home")}}
-                        </MenuItem>
-                        <MenuItem name="Record">
-                            <Icon type="ios-keypad"></Icon>
-                            {{$t("nav.recordDetails")}}
-                        </MenuItem>
-                        <MenuItem name="About">
-                            <Icon type="ios-navigate"></Icon>
-                            {{$t("nav.aboutMe")}}
-                        </MenuItem>
-                    </div>
-                </Menu>
-            </Header>
-            <Content :style="{padding: '0 50px'}">
-                <Breadcrumb :style="{margin: '20px 0'}">
-                    <BreadcrumbItem>{{currentModelName}}</BreadcrumbItem>
-                </Breadcrumb>
-                <Card>
-                    <div style="min-height: 200px;">
-                        <router-view></router-view>
-                    </div>
-                </Card>
-            </Content>
-            <Footer class="layout-footer-center">前端XSS防火墙及后台报警系统 (front-end XSS firewall and back-end alarm system)</Footer>
-        </Layout>
-    </div>
+  <div class="layout">
+    <Layout>
+      <Header>
+        <Menu mode="horizontal" theme="dark" active-name="Home" @on-select="gotoPage">
+          <div class="layout-logo"></div>
+          <div class="layout-nav">
+            <MenuItem name="Home">
+              <Icon type="ios-analytics"></Icon>
+              {{$t("nav.home")}}
+            </MenuItem>
+            <MenuItem name="Record">
+              <Icon type="ios-keypad"></Icon>
+              {{$t("nav.recordDetails")}}
+            </MenuItem>
+            <MenuItem name="About">
+              <Icon type="ios-navigate"></Icon>
+              {{$t("nav.aboutMe")}}
+            </MenuItem>
+            <MenuItem name="Language" @click.native="switchLanguage">
+              <Icon type="gear-a"></Icon>
+              中文 / English
+            </MenuItem>
+          </div>
+        </Menu>
+      </Header>
+      <Content :style="{padding: '0 50px'}">
+        <Breadcrumb :style="{margin: '20px 0'}">
+          <BreadcrumbItem>{{currentModelName}}</BreadcrumbItem>
+        </Breadcrumb>
+        <Card>
+          <div style="min-height: 200px;">
+            <router-view></router-view>
+          </div>
+        </Card>
+      </Content>
+      <Footer class="layout-footer-center">
+        <span>前端XSS防火墙及后台报警系统 (front-end XSS firewall and back-end alarm system)</span>
+      </Footer>
+    </Layout>
+  </div>
 </template>
 
 <script>
@@ -48,7 +54,13 @@ export default {
       }
     },
     gotoPage (name) {
-      this.$router.push(name)
+      if (name !== 'Language') {
+        this.$router.push(name)
+      }
+    },
+    switchLanguage () {
+      let locale = this.$i18n.locale
+      locale === 'zh' ? this.$i18n.locale = 'en' : this.$i18n.locale = 'zh'
     }
   },
   computed: {
@@ -93,7 +105,7 @@ export default {
     left: 20px;
 }
 .layout-nav{
-    width: 420px;
+    width: 520px;
     margin: 0 auto;
     margin-right: 20px;
 }
