@@ -14,8 +14,9 @@ module.exports = {
         lastLoginUA: '上次登录User-Agent'
       },
       chart: {
-        name: '日期',
-        title: '近七天触发次数图表'
+        title: '近七天触发次数',
+        xAxis: '日期',
+        yAxis: '触发'
       }
     }
   }

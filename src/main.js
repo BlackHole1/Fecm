@@ -11,9 +11,6 @@ import VueI18n from 'vue-i18n'
 import en from 'iview/dist/locale/en-US'
 import zh from 'iview/dist/locale/zh-CN'
 
-import VeLine from 'v-charts/lib/line'
-Vue.component(VeLine.name, VeLine)
-
 Vue.use(VueI18n)
 Vue.use(iView)
 

@@ -14,8 +14,9 @@ module.exports = {
         lastLoginUA: 'Last Login Usre-Agent'
       },
       chart: {
-        name: 'Date',
-        title: 'Chart of triggering times for the last seven days'
+        title: 'Chart of triggering times',
+        xAxis: 'Date',
+        yAxis: 'Trigger'
       }
     }
   }
