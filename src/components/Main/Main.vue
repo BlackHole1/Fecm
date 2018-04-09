@@ -1,43 +1,43 @@
 <template>
   <div class="layout">
-    <Layout>
-      <Header>
-        <Menu mode="horizontal" theme="dark" active-name="Home" @on-select="gotoPage">
+    <i-layout>
+      <i-header>
+        <i-menu mode="horizontal" theme="dark" active-name="Home" @on-select="gotoPage">
           <div class="layout-logo"></div>
           <div class="layout-nav">
-            <MenuItem name="Home">
+            <i-menu-item name="Home">
               <Icon type="ios-analytics"></Icon>
               {{$t("nav.home")}}
-            </MenuItem>
-            <MenuItem name="Record">
+            </i-menu-item>
+            <i-menu-item name="Record">
               <Icon type="ios-keypad"></Icon>
               {{$t("nav.recordDetails")}}
-            </MenuItem>
-            <MenuItem name="About">
+            </i-menu-item>
+            <i-menu-item name="About">
               <Icon type="ios-navigate"></Icon>
               {{$t("nav.aboutMe")}}
-            </MenuItem>
-            <MenuItem name="Language" @click.native="switchLanguage">
+            </i-menu-item>
+            <i-menu-item name="Language" @click.native="switchLanguage">
               <Icon type="gear-a"></Icon>
               中文 / English
-            </MenuItem>
+            </i-menu-item>
           </div>
-        </Menu>
-      </Header>
-      <Content :style="{padding: '0 50px'}">
-        <Breadcrumb :style="{margin: '20px 0'}">
-          <BreadcrumbItem>{{currentModelName}}</BreadcrumbItem>
-        </Breadcrumb>
-        <Card>
+        </i-menu>
+      </i-header>
+      <i-content :style="{padding: '0 50px'}">
+        <i-breadcrumb :style="{margin: '20px 0'}">
+          <i-breadcrumb-item>{{currentModelName}}</i-breadcrumb-item>
+        </i-breadcrumb>
+        <i-card>
           <div style="min-height: 200px;">
             <router-view></router-view>
           </div>
-        </Card>
-      </Content>
-      <Footer class="layout-footer-center">
+        </i-card>
+      </i-content>
+      <i-footer class="layout-footer-center">
         <span>前端XSS防火墙及后台报警系统 (front-end XSS firewall and back-end alarm system)</span>
-      </Footer>
-    </Layout>
+      </i-footer>
+    </i-layout>
   </div>
 </template>
 

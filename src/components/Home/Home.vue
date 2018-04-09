@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Row>
-      <Col span="8" class="col-left">
+    <i-row>
+      <i-col span="8" class="col-left">
         <div class="loginInfo">
-          <Card style="width:100%">
+          <i-card style="width:100%">
             <p slot="title">
-              <Icon type="information-circled"></Icon>
+              <i-icon type="information-circled"></i-icon>
               {{$t('home.left.loginInfo.title')}}
             </p>
             <div class="explain ivu-row">
@@ -40,16 +40,16 @@
                 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/59.0.3220.84 Safari/532.16
               </div>
             </div>
-          </Card>
+          </i-card>
         </div>
         <div class="captureLogs">
-          <Card style="width:100%;margin-top:20px">
+          <i-card style="width:100%;margin-top:20px">
             <ve-line :data="chartData" :title="chartTitle"></ve-line>
-          </Card>
+          </i-card>
         </div>
-      </Col>
-      <Col span="16">Coding...</Col>
-    </Row>
+      </i-col>
+      <i-col span="16">Coding...</i-col>
+    </i-row>
   </div>
 </template>
 
