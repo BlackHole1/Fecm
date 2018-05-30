@@ -11,6 +11,8 @@ import VueI18n from 'vue-i18n'
 import en from 'iview/dist/locale/en-US'
 import zh from 'iview/dist/locale/zh-CN'
 
+import {getLanguage} from '../common/utils'
+
 Vue.use(VueI18n)
 Vue.use(iView)
 
@@ -20,7 +22,7 @@ const messages = {
 }
 
 const i18n = new VueI18n({
-  locale: 'en',
+  locale: getLanguage(),
   messages
 })
 
